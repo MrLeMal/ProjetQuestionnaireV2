@@ -18,7 +18,7 @@ def demander_reponse(min, max):
         
         print(f"ERREUR : Veuillez entrer un chiffre entre {min} et {max}")
     except:
-        print("ERREUR : Entrez un chiffre")
+        print("ERREUR : Veuillez entrez un chiffre")
 
 
 def lancer_questionnaire(questionnaire):
